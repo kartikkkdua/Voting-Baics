@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import CandidateList from "../components/CandidateList";
-// import AdminPanel from "../components/AdminPanel";
 import { saveToStorage, loadFromStorage } from "../utils/storage";
 
 const VotingPage = () => {
@@ -75,7 +74,6 @@ const VotingPage = () => {
         🔄 Reset Votes
       </button>
 
-      {/* <AdminPanel onAddCandidate={handleAddCandidate} /> */}
     </div>
   );
 };
